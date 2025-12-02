@@ -12,6 +12,6 @@ Columns:
 - fuel_type     VARCHAR(10) NULL
 - license_plate VARCHAR(10) NOT NULL
 - registration  DATE NULL
-- price         MEDIUMINT NOT NULL
+- price         float(9,2) NOT NULL
 - description   TEXT NULL
 - created_at    DATETIME DEFAULT(now())
